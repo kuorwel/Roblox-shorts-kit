@@ -1,0 +1,54 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Renders and per-video output
+frames/
+preview/
+blend/
+out/
+videos/*/full.jpg
+videos/*/qa.jpg
+videos/*/character_options.jpg
+render_log*.txt
+*.blend
+*.blend1
+
+# Audio and video (voice takes, music, sound effects, renders)
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.opus
+*.mp4
+*.mov
+*.webm
+music/
+music_alt/
+
+# Models (downloaded by setup.py / faster-whisper)
+models/
+*.onnx
+*.bin
+*.pt
+*.safetensors
+
+# Keys, tokens and local settings
+.env
+.env.*
+*.key
+key
+client_secret*.json
+token.json
+/config.json
+.roblox-story-kit.json
